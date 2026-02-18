@@ -1,16 +1,24 @@
-# food_delivery_app
+# Vedamithra 🌿
 
-A new Flutter project.
+Vedamithra is a modern food delivery application built using Flutter and Firebase.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- Material 3 UI (Green & White Premium Theme)
+- Firebase Authentication
+- Cart Management
+- Clean Modular Architecture
+- Responsive Design
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter
+- Firebase
+- Provider (State Management)
+- Material 3 Design System
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📦 Installation
+
+```bash
+flutter pub get
+flutter run

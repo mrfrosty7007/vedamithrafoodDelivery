@@ -23,6 +23,11 @@ colorScheme: ColorScheme.fromSeed(
   seedColor: primaryColor,
   brightness: Brightness.light,
 ),
+dividerTheme: const DividerThemeData(
+  color: dividerColor,
+  thickness: 1,
+),
+
 textTheme: const TextTheme(
   titleLarge: TextStyle(
     fontWeight: FontWeight.bold,
@@ -116,6 +121,15 @@ borderRadius: BorderRadius.circular(20),
         backgroundColor: primaryColor,
         foregroundColor: Colors.white,
       ),
+      snackBarTheme: SnackBarThemeData(
+  backgroundColor: primaryDark,
+  contentTextStyle: const TextStyle(color: Colors.white),
+  shape: RoundedRectangleBorder(
+    borderRadius: BorderRadius.circular(14),
+  ),
+  behavior: SnackBarBehavior.floating,
+),
+
     );
   }
 }
