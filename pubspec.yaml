@@ -1,0 +1,49 @@
+name: food_delivery_app
+description: "A Flutter food delivery app for restaurant."
+publish_to: 'none'
+version: 1.0.0+2
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Firebase
+  firebase_core: ^4.4.0
+  firebase_auth: ^6.1.4
+  cloud_firestore: ^6.1.2
+  firebase_messaging: any
+  google_sign_in: ^6.2.1
+
+  # State Management
+  provider: any
+
+  # Utilities
+  intl: any
+  uuid: any
+  pinput: any
+  flutter_launcher_icons: ^0.14.4
+  http: ^1.6.0
+  package_info_plus: ^9.0.0
+  path_provider: ^2.1.5
+  open_filex: ^4.7.0
+  url_launcher: ^6.2.6
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+flutter_launcher_icons:
+  android: true
+  ios: false
+  web:
+    generate: true
+  image_path: "assets/icon.png"

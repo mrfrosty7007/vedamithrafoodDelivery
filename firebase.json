@@ -1,0 +1,30 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "mahad-food-delivery",
+          "appId": "1:784175758166:android:ecaaf6a74ffe88557974f7",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "mahad-food-delivery",
+          "configurations": {
+            "android": "1:784175758166:android:ecaaf6a74ffe88557974f7",
+            "web": "1:784175758166:web:e35317a1abbfe2db7974f7"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

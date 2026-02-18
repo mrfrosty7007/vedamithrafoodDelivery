@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "784175758166",
+    "project_id": "mahad-food-delivery",
+    "storage_bucket": "mahad-food-delivery.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784175758166:android:ecaaf6a74ffe88557974f7",
+        "android_client_info": {
+          "package_name": "com.restaurant.food_delivery_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784175758166-3v3ddc1h72gj7cnmdfcf9fi1lh4mg27o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.restaurant.food_delivery_app",
+            "certificate_hash": "33adabfab1db42fbc90b5811dac0d2966bcbfa45"
+          }
+        },
+        {
+          "client_id": "784175758166-4r3209cvlcbgdd62i3pct1a4vvo179h9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.restaurant.food_delivery_app",
+            "certificate_hash": "2152f538384c4d51d5ef79b7964b0d7f6dcf39af"
+          }
+        },
+        {
+          "client_id": "784175758166-dkninualvpqdeft7gbcvbaq49dutrt15.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ0cN5rF4NpNXj9efUMZHNiIgfubBHxME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784175758166-dkninualvpqdeft7gbcvbaq49dutrt15.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "784175758166-spho30glboree5mdpumak5evguuashdf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.restaurant.foodDeliveryApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
